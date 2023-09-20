@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "netlify:dev": "netlifly dev",
+    "n:dev": "netlify dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
