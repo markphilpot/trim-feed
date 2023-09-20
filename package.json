@@ -10,6 +10,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "browserslist": "defaults, not ie <= 11",
   "keywords": [],
   "author": "",
   "license": "ISC",
