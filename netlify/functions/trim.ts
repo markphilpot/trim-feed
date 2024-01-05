@@ -14,7 +14,7 @@ const handler: Handler = async (
 
     return {
       statusCode,
-      body: content.trim(),
+      body: content.trim().replaceAll('"//', '"https://'),
     };
   } else {
     return {
